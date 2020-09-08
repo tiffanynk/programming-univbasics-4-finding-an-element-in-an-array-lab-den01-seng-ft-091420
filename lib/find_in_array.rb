@@ -9,3 +9,6 @@ def find_element_index(array, value_to_find)
     index += 1
   end
 end
+
+#This solution will always return the first index of a matching element in the provided array.
+#It also will stop working as soon as it finds a match, rather than continuing to loop.
