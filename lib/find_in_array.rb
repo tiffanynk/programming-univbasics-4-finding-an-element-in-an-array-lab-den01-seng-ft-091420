@@ -5,6 +5,8 @@ def find_element_index(array, value_to_find)
     if array[index] == value_to_find
 # Access each element with array[index] and compare each aray element to value_to_find
       return index
+#if a match is found between an array element and the value to find, we immediately
+#return index, breaking out of the loop.
     end
     index += 1
   end
